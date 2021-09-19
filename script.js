@@ -8,8 +8,7 @@ $(document).ready(function() {
         average += parseInt(hours[i]);
       }
       average /= 7;
-      deviation = 4
-      alert("Average hours of sleep: " + average + "Standard deviation: " + average);
+      alert("Average hours of sleep: " + average);
   });
   
 });
