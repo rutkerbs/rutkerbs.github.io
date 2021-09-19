@@ -10,7 +10,7 @@ $(document).ready(function() {
       }
       average /= 7;
       if (average < 8.5) {
-        message += "That's less than 8.5 hours of sleep! Scroll down to find sleep resources."
+        message = "That's less than 8.5 hours of sleep! Scroll down to find sleep resources."
       }
       alert("Average hours of sleep: " + average + "\n" + message);
   });
