@@ -8,9 +8,6 @@ $(document).ready(function() {
         average += parseInt(hours[i]);
       }
       average /= 7;
-      for (let i = 0; i < 7; i++) {
-        standard_deviation += parseInt((parseInt(hours[i]) - average))**2;
-      }
       standard_deviation = 4
       alert("Average hours of sleep: " + average + "Standard deviation: " + standard_deviation);
   });
