@@ -12,7 +12,7 @@ $(document).ready(function() {
         standard_deviation += (parseInt(hours[i]) - average)**2;
       }
       standard_deviation = (standard_deviation / 6)**(1/2);
-      alert("Average hours of sleep: " + average + "Standard deviation: " + standard_deviation);
+      alert("Average hours of sleep: " + average + "Standard deviation: ");
   });
   
 });
