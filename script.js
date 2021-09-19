@@ -7,7 +7,7 @@ $(document).ready(function() {
         average += hours[i];
       }
       average /= 7;
-      alert("Average hours of sleep: " + average)
+      alert("Average hours of sleep: " + average);
   });
   
 });
