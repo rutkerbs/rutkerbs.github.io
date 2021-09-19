@@ -7,10 +7,10 @@ $(document).ready(function() {
       for (let i = 0; i < 7; i++) {
         average += parseInt(hours[i]);
       }
+      average /= 7;
       for (let i = 0; i < 7; i++) {
         standard_deviation += (parseInt(hours[i]) - average)**2;
       }
-      average /= 7;
       standard_deviation = (standard_deviation / 6)**(1/2);
       alert("Average hours of sleep: " + average + "\n" + "Standard deviation: " + standard_deviation);
   });
