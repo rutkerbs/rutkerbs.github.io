@@ -9,7 +9,7 @@ $(document).ready(function() {
       }
       average /= 7;
       deviation = 4
-      alert("Average hours of sleep: " + average + "Standard deviation: " + deviation);
+      alert("Average hours of sleep: " + average + "Standard deviation: " + average);
   });
   
 });
