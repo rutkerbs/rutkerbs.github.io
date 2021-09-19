@@ -1,10 +1,10 @@
 body {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   font-family: 'Belgrano';
   font-size: 22px;
   /*height: 900px;*/
   /*background-color: lightblue;*/
-  /*background-image: linear-gradient(lightblue, darkblue);*/
+  background-image: linear-gradient(lightblue, darkblue);
 }
 
 h1 {
